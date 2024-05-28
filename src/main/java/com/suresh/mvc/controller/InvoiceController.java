@@ -24,6 +24,7 @@ public class InvoiceController
     @GetMapping("/")
     public String showHomePage()
     {
+        System.out.println("sdjf");
         return "homePage";
     }
 
